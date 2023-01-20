@@ -1,0 +1,282 @@
+<html>
+    <head>
+        <title>Favorite Basketball Athletes</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="w3.css">
+        <link rel="icon" href="https://static.vecteezy.com/system/protected/files/001/196/883/vecteezy_basketball_1196883.png" type="image/icon">
+    </head>
+    <body class="w3-black">
+        <div class="w3-container w3-center">
+            <img src="Header website2.png" style="width:100%">
+        </div>
+
+        <div class="w3-bar w3-center w3-cursive">
+            <hr>
+            <button class="w3-button w3-round-xxlarge w3-indigo w3-ripple" onclick="basketball('jordan')">Michael Jordan</button>
+            <button class="w3-button w3-round-xxlarge w3-indigo w3-ripple" onclick="basketball('kobe')">Kobe Bryant</button>
+            <button class="w3-button w3-round-xxlarge w3-indigo w3-ripple" onclick="basketball('ray')">Ray Allen</button>
+            <button class="w3-button w3-round-xxlarge w3-indigo w3-ripple" onclick="basketball('kyrie')">Kyrie Irving</button>
+            <button class="w3-button w3-round-xxlarge w3-indigo w3-ripple" onclick="basketball('steph')">Stephen Curry</button>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-round-xxlarge w3-indigo">Others</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-indigo">
+                    <button class="w3-bar-item w3-button w3-ripple" onclick="basketball('profile')">Profile</button>
+                    <button class="w3-bar-item w3-button w3-ripple" onclick="basketball('home')">Home</button>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div id="jordan" class="w3-container basket w3-red" style="display:none">
+            <center>
+                <div class="row-padding" style="margin:0-16px">
+                    <div class="w3-container w3-third">
+                        <img src="jordan2.png" class="w3-circle w3-animate-zoom" style="width:50%">
+                    </div>
+                <div class="w3-container w3-third w3-animate-opacity w3-monospace">
+                    <h2>Michael Jordan</h2>
+                    <p><b>Michael Jeffrey Jordan</b> (born February 17, 1963), also known by his initials MJ, is an American businessman and former professional basketball player. 
+                    His biography on the official NBA website states: "By acclamation, Michael Jordan is the greatest basketball player of all time."</p> 
+                    <p>He played fifteen seasons in the National Basketball Association (NBA), winning six NBA championships with the Chicago Bulls. 
+                    Jordan is the principal owner and chairman of the Charlotte Hornets of the NBA and of 23XI Racing in the NASCAR Cup Series. 
+                    He was integral in popularizing the NBA around the world in the 1980s and 1990s,[11] becoming a global cultural icon in the process.</p>
+                    <button class="w3-button w3-ripple w3-white w3-round-xxlarge" onclick="basketball('galljordan')">Gallery</button>
+                </div>
+                <div class="w3-container w3-third">
+                    <img src="jordandunk2.png" class="w3-circle w3-animate-zoom" style="width:50%">
+                </div>
+            </div>
+        </div>
+
+        <div id="galljordan" class="w3-container basket" style="display:none">
+            <center>
+            <div class="row-padding" style="margin:0-16px">
+                <div class="w3-container w3-red">
+                    <img src="jordan.jpg" class="w3-animate-left w3-third" style="width:31.3%">
+                    <img src="jordandunk.jpg" class="w3-animate-bottom w3-third" style="width:31.3%">
+                    <img src="jordanshoot.jpg" class="w3-animate-right w3-third" style="width:37%">
+                </div>
+                <hr>
+                <div class="w3-container w3-red">
+                    <h2>Jordan's Game Winner vs Utah Jazz 1998</h2>
+                    <video autoplay width="600" class="w3-border" controls>
+                        <source src="MJ game winner.mp4" type="video/mp4">
+                    </video>
+                    <p>Source: <a href="https://youtu.be/a0TKEofio7w">Youtube.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="kobe" class="w3-container basket w3-deep-purple" style="display:none">
+            <center>
+                <div class="row-padding" style="margin:0-16px">
+                    <div class="w3-container w3-third">
+                        <img src="kobe1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                    </div>
+                <div class="w3-container w3-third w3-animate-opacity w3-monospace">
+                    <h2>Kobe Bryant</h2>
+                    <p><b>Kobe Bean Bryant</b> (August 23, 1978 - January 26, 2020) was an American professional basketball player. 
+                        A shooting guard, he spent his entire 20-year career with the Los Angeles Lakers in the National Basketball Association (NBA). 
+                        Widely regarded as one of the greatest basketball players and scorers of all time.</p>
+                        <p>Bryant won five NBA championships, was an 18-time All-Star, a 15-time member of the All-NBA Team, a 12-time member of the All-Defensive Team, 
+                            the 2008 NBA Most Valuable Player (MVP), and a two-time NBA Finals MVP. 
+                            Bryant also led the NBA in scoring twice, and ranks fourth in league all-time regular season and postseason scoring. 
+                            He was posthumously voted into the Naismith Memorial Basketball Hall of Fame in 2020 and named to the NBA 75th Anniversary Team in 2021.</p>
+                    <h2>RIP MAMBA</h2>
+                    <button class="w3-button w3-ripple w3-white w3-round-xxlarge" onclick="basketball('gallkobe')">Gallery</button>
+                </div>
+                <div class="w3-container w3-third">
+                    <img src="kobechamps1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                </div>
+            </div>
+        </div>
+
+        <div id="gallkobe" class="w3-container basket" style="display:none">
+            <center>
+            <div class="row-padding" style="margin:0-16px">
+                <marquee width="30%" direction="left"><h2>RIP MAMBA  RIP MAMBA  RIP MAMBA</h2></marquee>
+                <div class="w3-container w3-deep-purple">
+                    <img src="kobe.jpg" class="w3-animate-left" style="width:24%">
+                    <img src="kobechamps.jpg" class="w3-animate-bottom" style="width:24%">
+                    <img src="mamba.jpg" class="w3-animate-right" style="width:24%">
+                </div>
+                <hr>
+                <div class="w3-container w3-deep-purple">
+                    <h2>Kobe Bryant's Game Winner vs Miami Heat 2009</h2>
+                    <video autoplay width="500" class="w3-border" controls>
+                        <source src="Kobe game winner.mp4" type="video/mp4">
+                    </video>
+                    <p>Source: <a href="https://youtu.be/Zhtz4MAWs5o">Youtube.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="ray" class="w3-container basket w3-green" style="display:none">
+            <center>
+                <div class="row-padding" style="margin:0-16px">
+                    <div class="w3-container w3-third">
+                        <img src="allen1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                    </div>
+                <div class="w3-container w3-third w3-animate-opacity w3-monospace">
+                    <h2>Ray Allen</h2>
+                   <p><b>Walter Ray Allen Jr.</b> (born July 20, 1975) is an American former professional basketball player. 
+                    He played 18 seasons in the National Basketball Association (NBA) and was inducted into the Naismith Memorial Basketball Hall of Fame as a player in 2018. 
+                    Allen is widely considered to be one of the greatest three-point shooters of all-time, 
+                    and he held the record for most three-pointers made in a career from 2011 until 2021, when he was surpassed by Stephen Curry.</p>
+                    <p>Allen's list of individual accolades are extensive; he gained ten NBA All-Star designations, he won an Olympic gold medal as a member of the 2000 United States men's basketball team,
+                     he held the NBA record in career three-point field goals made in the regular season from 2011 to 2021, and has additionally scored the third most three-pointers in the postseason.</p>
+                    <button class="w3-button w3-ripple w3-white w3-round-xxlarge" onclick="basketball('gallray')">Gallery</button>
+                </div>
+                <div class="w3-container w3-third">
+                    <img src="allenheat1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                </div>
+            </div>
+        </div>
+
+        <div id="gallray" class="w3-container basket" style="display:none">
+            <center>
+            <div class="row-padding" style="margin:0-16px">
+                <div class="w3-container w3-green">
+                    <img src="rayallen.jpg" class="w3-animate-left" style="width:26.2%">
+                    <img src="allen.jpg" class="w3-animate-bottom" style="width:27%">
+                    <img src="allenheat.jpg" class="w3-animate-right" style="width:27.1%">
+                </div>
+                <hr>
+                <div class="w3-container w3-green">
+                    <h2>Ray Allen's Game-Tying 3pts vs San Antonio Spurs 2013</h2>
+                    <video autoplay width="500" class="w3-border" controls>
+                        <source src="Ray Allen Game-tying.mp4" type="video/mp4">
+                    </video>
+                    <p>Source: <a href="https://youtu.be/tr6XsZVb-ZE">Youtube.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="kyrie" class="w3-container basket w3-brown" style="display:none">
+            <center>
+                <div class="row-padding" style="margin:0-16px">
+                    <div class="w3-container w3-third">
+                        <img src="kyrie1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                    </div>
+                <div class="w3-container w3-third w3-animate-opacity w3-monospace">
+                    <h2>Kyrie Irving</h2>
+                    <p><b>Kyrie Andrew Irving</b> (born March 23, 1992) is an American professional basketball player for the Brooklyn Nets of the National Basketball Association (NBA). 
+                        He was named the Rookie of the Year after being selected by the Cleveland Cavaliers with the first overall pick in the 2011 NBA draft. 
+                        A seven-time All-Star and three-time member of the All-NBA Team, he won an NBA championship with the Cavaliers in 2016.</p>
+                        <p>Irving played college basketball for the Duke Blue Devils before joining the Cavaliers in 2011. He won the Most Valuable Player (MVP) award for the 2014 All-Star Game. 
+                            In the 2016 NBA Finals, Irving made the championship-winning three-point field goal to complete the Cavaliers' historic comeback over the Golden State Warriors.</p>
+                    <button class="w3-button w3-ripple w3-white w3-round-xxlarge" onclick="basketball('gallkyrie')">Gallery</button>
+                </div>
+                <div class="w3-container w3-third">
+                    <img src="irving1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                </div>
+            </div>
+        </div>
+
+        <div id="gallkyrie" class="w3-container basket" style="display:none">
+            <center>
+            <div class="row-padding" style="margin:0-16px">
+                <div class="w3-container w3-brown">
+                    <img src="kyrie.jpg" class="w3-animate-left" style="width:27.5%">
+                    <img src="kyriewin.jpg" class="w3-animate-bottom" style="width:30%">
+                    <img src="irving.jpg" class="w3-animate-right" style="width:27.1%">
+                </div>
+                <hr>
+                <div class="w3-container w3-brown">
+                    <h2>Kyrie Irving's Clutch Shot vs Golden State Warriors 2016</h2>
+                    <video autoplay width="500" class="w3-border" controls>
+                        <source src="Kyrie clutch.mp4" type="video/mp4">
+                    </video>
+                    <p>Source: <a href="https://youtu.be/fZ8yCJgsF_4">Youtube.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="steph" class="w3-container basket w3-blue" style="display:none">
+            <center>
+                <div class="row-padding" style="margin:0-16px">
+                    <div class="w3-container w3-third">
+                        <img src="steph1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                        <img src="steeph1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                    </div>
+                <div class="w3-container w3-third w3-animate-opacity w3-monospace">
+                    <h2>Stephen Curry</h2>
+                    <p><b>Wardell Stephen Curry II</b> (born March 14, 1988) is an American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA).
+                         Widely regarded as one of the greatest basketball players of all time, and as the greatest shooter in NBA history, 
+                         Curry is credited with revolutionizing the sport by inspiring teams and players to take more three-point shots. 
+                         An eight-time NBA All-Star and eight-time All-NBA selection, including four times on the first team, he has been named the NBA Most Valuable Player (MVP) twice, 
+                         has won four NBA championships, and received an NBA Finals MVP Award and an NBA All-Star Game MVP Award.</p>
+                         <p>In 2014-15, Curry won his first league MVP award and led the Warriors to their first championship since 1975. The following season, 
+                            he became the first player to be elected MVP by a unanimous vote and lead the league in scoring while shooting above 50-40-90. 
+                            That same year, the Warriors broke the record for the most wins in an NBA season en route to reaching the 2016 NBA Finals, 
+                            which they lost to the Cleveland Cavaliers in seven games. Curry helped the Warriors return to the NBA Finals in 2017, 2018, and 2019, 
+                            winning back-to-back titles in 2017 and 2018, but falling to the Toronto Raptors in 2019. After missing the playoffs in 2020 and 2021, 
+                            Curry won a fourth championship with the Warriors against the Boston Celtics in 2022, and was named Finals MVP.</p>
+                    <button class="w3-button w3-ripple w3-white w3-round-xxlarge" onclick="basketball('gallsteph')">Gallery</button>
+                </div>
+                <div class="w3-container w3-third">
+                    <img src="curry1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                    <img src="currrryy1.jpg" class="w3-circle w3-animate-zoom" style="width:50%">
+                </div>
+            </div>
+        </div>
+
+        <div id="gallsteph" class="w3-container basket" style="display:none">
+            <center>
+            <div class="row-padding" style="margin:0-16px">
+                <div class="w3-container w3-blue">
+                    <img src="steph.jpg" class="w3-animate-left" style="width:27%">
+                    <img src="stephnight.jpg" class="w3-animate-bottom" style="width:27%">
+                    <img src="curry.jpg" class="w3-animate-right" style="width:32%">
+                </div>
+                <hr>
+                <div class="w3-container w3-blue">
+                    <h2>Steph Curry's Game Winner vs OKC Thunder 2016</h2>
+                    <video autoplay width="500" class="w3-border" controls>
+                        <source src="Curry game winner.mp4" type="video/mp4">
+                    </video>
+                    <p>Source: <a href="https://youtu.be/GEMVGHoenXM">Youtube.com</a></p>
+                </div>
+            </div>
+        </div>   
+
+        <div id="profile" class="w3-container basket" style="display:none">
+            <center>
+                <div class="w3-row-padding" style="margin:0-16px">
+                    <div class="w3-container w3-third w3-animate-zoom">
+                        <img src="aku1.JPG" class="w3-circle" style="width:50%">
+                    </div>
+                    <div class="w3-container w3-third w3-monospace w3-animate-opacity">
+                        <p>Hello, my name is Faris Alfarizi.</p>
+                        <p>Born in Bandung, November 27th 2003.</p>
+                        <p>I am a student in Computer University of Indonesia (UNIKOM) at Informatics Engineering Department. With NIM: 10122139, and class: IF-4</p>
+                        <p> I love basketball since I was in 5th grade but it's just a hobby and I don't have a desire to be a pro.</p>
+                        <p>I like playing games too, not like an addict, but just a casual gamer.</p>
+                    </div>
+                </div>
+        </div>
+
+        <div id="home" class="w3-container basket" style="display:block">
+            <center>
+            <marquee width=45% direction="left">
+            <h1 class="w3-serif">Hello there, welcome to my page!</h1>
+            </marquee>
+        </div>
+        <hr>
+        <script>
+            function basketball(atlit) {
+             var i;
+             var x = document.getElementsByClassName("basket");
+             for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+             }
+             document.getElementById(atlit).style.display = "block";
+            }
+        </script>
+
+        <footer>
+            <div class="w3-container w3-center">
+                <p>By: 10122139-Faris Alfarizi IF-4</p>
+            </div>
+        </footer>
+    </body>
